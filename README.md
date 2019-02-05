@@ -19,3 +19,5 @@ action "haskell-lint" {
 
 - [ ] Opens proper GitHub check runs
 - [ ] Annotates lines in PR with suggestions
+- [ ] Support `hlint.yaml` in repos
+- [ ] Support `hlint.yaml` by reference (from S3/GitHub/etc...)
