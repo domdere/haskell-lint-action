@@ -5,4 +5,4 @@ LABEL "com.github.actions.description"="Run hlint on your haskell code base"
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="6f42c1"
 
-CMD ["hlint", "/github/workspace"]
+CMD ["hlint", "."]
