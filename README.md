@@ -15,9 +15,13 @@ action "haskell-lint" {
 }
 ```
 
+It will insert inline suggestions into the PR:
+
+![](./etc/inline-annotation.png)
+
 ## TODOs
 
-- [ ] Opens proper GitHub check runs
-- [ ] Annotates lines in PR with suggestions
+- [x] Opens proper GitHub check runs
+- [x] Annotates lines in PR with suggestions
 - [ ] Support `hlint.yaml` in repos
 - [ ] Support `hlint.yaml` by reference (from S3/GitHub/etc...)
