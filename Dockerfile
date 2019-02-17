@@ -1,4 +1,4 @@
-FROM irreverentpixelfeats/hlinter-action:sha-20190216120916-348b8d1
+FROM irreverentpixelfeats/hlinter-action:sha-20190217050508-f997db7
 
 LABEL "com.github.actions.name"="Haskell Linter"
 LABEL "com.github.actions.description"="Run hlint on your haskell code base"
